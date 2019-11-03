@@ -15,6 +15,22 @@
 #
 # Files that start with an '*' will be searched in the whole system.
 
+# Ebury sshd backdoor
+lib/libns2.so                ! Ebury sshd backdoor ::
+lib64/libns2.so              ! Ebury sshd backdoor ::
+lib/libns5.so                ! Ebury sshd backdoor ::
+lib64/libns5.so              ! Ebury sshd backdoor ::
+lib/libpw3.so                ! Ebury sshd backdoor ::
+lib64/libpw3.so              ! Ebury sshd backdoor ::
+lib/libpw5.so                ! Ebury sshd backdoor ::
+lib64/libpw5.so              ! Ebury sshd backdoor ::
+lib/libsbr.so                ! Ebury sshd backdoor ::
+lib64/libsbr.so              ! Ebury sshd backdoor ::
+lib/libslr.so                ! Ebury sshd backdoor ::
+lib64/libslr.so              ! Ebury sshd backdoor ::
+lib/tls/libkeyutils.so.1     ! Ebury sshd backdoor ::
+lib64/tls/libkeyutils.so.1   ! Ebury sshd backdoor ::
+
 # Shellbot Rookit
 lib/libgrubd.so   ! Shellbot Rookit ::
 

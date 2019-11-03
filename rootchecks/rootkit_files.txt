@@ -15,6 +15,11 @@
 #
 # Files that start with an '*' will be searched in the whole system.
 
+# OSX Komplex Trojan
+Users/Shared/.local/kextd              ! OSX Komplex Trojan ::
+Users/Shared/com.apple.updates.plist   ! OSX Komplex Trojan ::
+Users/Shared/start.sh                  ! OSX Komplex Trojan ::
+
 # OSX Keydnap backdoor
 Applications/Transmission.app/Contents/Resources/License.rtf           ! OSX Keydnap backdoor ::
 Volumes/Transmission/Transmission.app/Contents/Resources/License.rtf   ! OSX Keydnap backdoor ::

@@ -15,6 +15,12 @@
 #
 # Files that start with an '*' will be searched in the whole system.
 
+# Mokes backdoor
+tmp/ss0-*.sst   ! Mokes backdoor ::
+tmp/aa0-*.aat   ! Mokes backdoor ::
+tmp/kk0-*.kkt   ! Mokes backdoor ::
+tmp/dd0-*.ddt   ! Mokes backdoor ::
+
 # OSX Proton backdoor
 Library/LaunchAgents/com.apple.xpcd.plist            ! OSX Proton backdoor ::
 Library/LaunchAgents/com.Eltima.UpdaterAgent.plist   ! OSX Proton backdoor ::

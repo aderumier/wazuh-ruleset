@@ -15,6 +15,21 @@
 #
 # Files that start with an '*' will be searched in the whole system.
 
+# Cryptominer Worm (unnamed)
+tmp/nemp                     ! Cryptominer Worm (unnamed) ::
+tmp/xrig_386                 ! Cryptominer Worm (unnamed) ::
+tmp/xrig_arm                 ! Cryptominer Worm (unnamed) ::
+tmp/bruteforce_ssh           ! Cryptominer Worm (unnamed) ::
+tmp/bruteforce_ssh_386       ! Cryptominer Worm (unnamed) ::
+tmp/bruteforce_ssh_arm       ! Cryptominer Worm (unnamed) ::
+tmp/miner.sh                 ! Cryptominer Worm (unnamed) ::
+var/tmp/xrig_386             ! Cryptominer Worm (unnamed) ::
+var/tmp/xrig_arm             ! Cryptominer Worm (unnamed) ::
+var/tmp/bruteforce_ssh       ! Cryptominer Worm (unnamed) ::
+var/tmp/bruteforce_ssh_386   ! Cryptominer Worm (unnamed) ::
+var/tmp/bruteforce_ssh_arm   ! Cryptominer Worm (unnamed) ::
+var/tmp/miner.sh             ! Cryptominer Worm (unnamed) ::
+
 # Brootkit (Linux rootkit)
 tmp/.br/br.conf           ! Brootkit rookit ::
 tmp/.br/bashbd.sh         ! Brootkit rookit ::

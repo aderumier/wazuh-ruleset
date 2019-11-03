@@ -15,6 +15,12 @@
 #
 # Files that start with an '*' will be searched in the whole system.
 
+
+# Rocke Miner cryptominer malware (aka Linux.Ekcorminer and Linux.Siggen.1242)
+tmp/.a7         ! Rocke Miner cryptominer malware ::
+etc/xig         ! Rocke Miner cryptominer malware ::
+etc/ld.so.pre   ! Rocke Miner cryptominer malware ::
+
 # Linux.BtcMine.174 Trojan
 bin/just4root                ! Linux.BtcMine.174 Trojan ::
 bin/just4copy                ! Linux.BtcMine.174 Trojan ::

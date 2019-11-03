@@ -15,6 +15,74 @@
 #
 # Files that start with an '*' will be searched in the whole system.
 
+# Abafar
+etc/X11/.pr   ! Abafar sshdoor ::
+
+# Alderaan
+etc/gshadow--   ! Alderaan sshdoor ::
+
+# Anoat
+usr/share/polkit-1/policy.in          ! Anoat sshdoor ::
+usr/share/X11/sessmgr/coredump.in     ! Anoat sshdoor ::
+usr/share/polkit-1/policy.out         ! Anoat sshdoor ::
+usr/include/X11/sessmgr/coredump.in   ! Anoat sshdoor ::
+
+#Akiva
+usr/local/include/uconf.h   ! Akiva sshdoor ::
+
+#Ando
+usr/lib/libsoftokn3.so.0   ! Ando sshdoor ::
+usr/lib/libsoftokn3.so.0   ! Ando sshdoor ::
+etc/ssh/.sshd_auth         ! Ando sshdoor ::
+
+#Atollon
+usr/share/man/hu/sd      ! Atollon sshdoor ::
+usr/share/man/man1/sdd   ! Atollon sshdoor ::
+
+#Batuu
+usr/lib/libt1x.so.1.5     ! Batuu sshdoor ::
+usr/lib/libcurl.a.2.1     ! Batuu sshdoor ::
+usr/lib/libpanel.so.a.3   ! Batuu sshdoor ::
+
+#Bespin
+var/tmp/.pipe.sock   ! Bespin sshdoor ::
+
+#Bonadan
+usr/share/lsx/.ig.swr   ! Bonadan sshdoor ::
+
+#Chandrila
+usr/share/man/.urandom    ! Chandrilla sshdoor ::
+
+#Crait
+usr/share/man/man0/.cache   ! Crait sshdoor ::
+
+#Coruscant
+dev/.ctrl   ! Coruscant sshdoor ::
+
+#Kessel
+tmp/KCtbBo   ! Kessel sshdoor ::
+
+#Onderon
+usr/lib/mozilla/extensions/mozzlia.ini   ! Onderon sshdoor ::
+tmp/zilog                                ! Onderon sshdoor ::
+usr/tmp/~tmp441                          ! Onderon sshdoor ::
+var/opt/power                            ! Onderon sshdoor ::
+usr/local/share/man/man1/Openssh.1       ! Onderon sshdoor ::
+usr/lib/gcc/x86_64-redhat-linux/.0       ! Onderon sshdoor ::
+etc/ssh/ssh_known_hosts                  ! Onderon sshdoor ::
+usr/share/man/man1/.olog                 ! Onderon sshdoor ::
+usr/include/sn.h                         ! Onderon sshdoor ::
+
+#Polis Massa
+usr/lib/libpanel.so.a.3   ! Polis Massa sshdoor ::
+usr/share/boot.sync       ! Polis Massa sshdoor ::
+usr/include/mbstring.h    ! Polis Massa sshdoor ::
+var/html/lol              ! Polis Massa sshdoor ::
+
+#Quarren
+usr/share/man/man5/ttyl.5.gz   ! Quarren sshdoor ::
+usr/share/man/man5/ttyv.5.gz   ! Quarren sshdoor ::
+
 # Bash door
 tmp/mcliZokhb           ! Bash door ::/rootkits/bashdoor.php
 tmp/mclzaKmfa           ! Bash door ::/rootkits/bashdoor.php

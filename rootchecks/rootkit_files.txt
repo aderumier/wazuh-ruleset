@@ -15,6 +15,15 @@
 #
 # Files that start with an '*' will be searched in the whole system.
 
+# OSX Proton backdoor
+Library/LaunchAgents/com.apple.xpcd.plist            ! OSX Proton backdoor ::
+Library/LaunchAgents/com.Eltima.UpdaterAgent.plist   ! OSX Proton backdoor ::
+Library/.rand/updateragent.app                       ! OSX Proton backdoor ::
+tmp/Updater.app                                      ! OSX Proton backdoor ::
+Library/.rand                                        ! OSX Proton backdoor ::
+Library/.cachedir                                    ! OSX Proton backdoor ::
+Library/.random                                      ! OSX Proton backdoor ::
+
 # Cryptominer Worm (unnamed)
 tmp/nemp                     ! Cryptominer Worm (unnamed) ::
 tmp/xrig_386                 ! Cryptominer Worm (unnamed) ::

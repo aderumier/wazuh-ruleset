@@ -15,6 +15,12 @@
 #
 # Files that start with an '*' will be searched in the whole system.
 
+# OSX Keydnap backdoor
+Applications/Transmission.app/Contents/Resources/License.rtf           ! OSX Keydnap backdoor ::
+Volumes/Transmission/Transmission.app/Contents/Resources/License.rtf   ! OSX Keydnap backdoor ::
+Library/LaunchAgents/com.apple.iCloud.sync.daemon.plist                ! OSX Keydnap backdoor ::
+Library/LaunchAgents/com.geticloud.icloud.photo.plist                  ! OSX Keydnap backdoor ::
+
 # Mokes backdoor
 tmp/ss0-*.sst   ! Mokes backdoor ::
 tmp/aa0-*.aat   ! Mokes backdoor ::

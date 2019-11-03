@@ -15,6 +15,56 @@
 #
 # Files that start with an '*' will be searched in the whole system.
 
+#BillGates bonet
+boot/pro                       ! BillGates botnet ::
+boot/proh                      ! BillGates botnet ::
+etc/atdd                       ! BillGates botnet ::
+etc/atddd                      ! BillGates botnet ::
+etc/cupsdd                     ! BillGates botnet ::
+etc/cupsddd                    ! BillGates botnet ::
+etc/cupsddh                    ! BillGates botnet ::
+etc/dsfrefr                    ! BillGates botnet ::
+etc/fdsfsfvff                  ! BillGates botnet ::
+etc/ferwfrre                   ! BillGates botnet ::
+etc/fwke.cfg                   ! BillGates botnet ::
+etc/gdmorpen                   ! BillGates botnet ::
+etc/gfhddsfew                  ! BillGates botnet ::
+etc/gfhjrtfyhuf                ! BillGates botnet ::
+etc/ksapd                      ! BillGates botnet ::
+etc/ksapdd                     ! BillGates botnet ::
+etc/kysapd                     ! BillGates botnet ::
+etc/kysapdd                    ! BillGates botnet ::
+etc/rewgtf3er4t                ! BillGates botnet ::
+etc/sdmfdsfhjfe                ! BillGates botnet ::
+etc/sfewfesfs                  ! BillGates botnet ::
+etc/sfewfesfsh                 ! BillGates botnet ::
+etc/sksapd                     ! BillGates botnet ::
+etc/sksapdd                    ! BillGates botnet ::
+etc/skysapd                    ! BillGates botnet ::
+etc/skysapdd                   ! BillGates botnet ::
+etc/smarvtd                    ! BillGates botnet ::
+etc/whitptabil                 ! BillGates botnet ::
+etc/xfsdx                      ! BillGates botnet ::
+etc/xfsdxd                     ! BillGates botnet ::		  
+tmp/bill.lock                  ! BillGates botnet ::
+tmp/gates.lock                 ! BillGates botnet ::
+tmp/gates.lod                  ! BillGates botnet ::
+tmp/moni.lock                  ! BillGates botnet ::
+tmp/moni.lod                   ! BillGates botnet ::
+tmp/notify.file                ! BillGates botnet ::
+usr/bin/.sshd                  ! BillGates botnet ::
+usr/bin/bsd-port/.sshd         ! BillGates botnet ::
+usr/bin/bsd-port/getty         ! BillGates botnet ::
+usr/bin/bsd-port/getty.lock    ! BillGates botnet ::
+usr/bin/bsd-port/udevd.lock    ! BillGates botnet ::
+usr/bin/pojie                  ! BillGates botnet ::
+usr/lib/libamplify.so          ! BillGates botnet ::
+etc/.SSH2                      ! BillGates botnet ::
+etc/init.d/DbSecuritySpt       ! BillGates botnet ::
+etc/rc.d/init.d/DbSecuritySpt  ! BillGates botnet ::
+etc/cron.hourly/gcc.sh         ! BillGates botnet ::
+root/2016ttfacai               ! BillGates botnet ::
+
 # Ebury sshd backdoor
 lib/libns2.so                ! Ebury sshd backdoor ::
 lib64/libns2.so              ! Ebury sshd backdoor ::

@@ -15,6 +15,18 @@
 #
 # Files that start with an '*' will be searched in the whole system.
 
+# Skidmap
+tmp/miner2                        ! Skidmap ::
+lib/udev/ssd_control/iproute.ko   ! Skidmap ::
+lib/udev/ssd_control/netlink.ko   ! Skidmap ::
+lib/udev/ssd_control/cryptov2.ko  ! Skidmap ::
+usr/bin/kaudited                  ! Skidmap ::
+usr/bin/pamdicks                  ! Skidmap ::
+usr/bin/kswaped                   ! Skidmap ::
+usr/bin/irqbalanced               ! Skidmap ::
+usr/bin/rctlcli                   ! Skidmap ::
+/usr/bin/systemd-network          ! Skidmap ::
+
 # Abafar
 etc/X11/.pr   ! Abafar sshdoor ::
 

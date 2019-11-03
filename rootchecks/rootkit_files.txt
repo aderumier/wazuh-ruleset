@@ -15,6 +15,11 @@
 #
 # Files that start with an '*' will be searched in the whole system.
 
+# Jynx2 Rootkit 
+XxJynx/reality.so   ! Jynx2 Rootkit ::
+XxJynx/jynx2.so     ! Jynx2 Rootkit ::
+XxJynx              ! Jynx2 Rootkit ::
+
 # OSX Komplex Trojan
 Users/Shared/.local/kextd              ! OSX Komplex Trojan ::
 Users/Shared/com.apple.updates.plist   ! OSX Komplex Trojan ::

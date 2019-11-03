@@ -15,6 +15,17 @@
 #
 # Files that start with an '*' will be searched in the whole system.
 
+# MALXMR.UWEIU Coinminer Trojan (Trojan.SH.MALXMR.UWEIU - installs Coinminer.Linux.MALXMR.UWEIU
+etc/cron.hourly/oanacroner    ! MALXMR.UWEIU coinminer trojan ::
+etc/cron.daily/oanacroner     ! MALXMR.UWEIU coinminer trojan ::
+etc/cron.monthly/oanacroner   ! MALXMR.UWEIU coinminer trojan ::
+opt/yilu/mservice             ! MALXMR.UWEIU coinminer trojan ::
+opt/yilu/work/xig/xig         ! MALXMR.UWEIU coinminer trojan ::
+opt/yilu/work/xige/xige       ! MALXMR.UWEIU coinminer trojan ::
+usr/bin/.sshd                 ! MALXMR.UWEIU coinminer trojan ::
+opt/yilu                      ! MALXMR.UWEIU coinminer trojan ::
+
+
 # Skidmap
 tmp/miner2                        ! Skidmap ::
 lib/udev/ssd_control/iproute.ko   ! Skidmap ::

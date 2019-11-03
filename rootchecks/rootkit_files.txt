@@ -15,6 +15,16 @@
 #
 # Files that start with an '*' will be searched in the whole system.
 
+# Brootkit (Linux rootkit)
+tmp/.br/br.conf           ! Brootkit rookit ::
+tmp/.br/bashbd.sh         ! Brootkit rookit ::
+tmp/.br/brootkit.sh       ! Brootkit rookit ::
+tmp/.br/brconfig.sh       ! Brootkit rookit ::
+tmp/.br/brdaemon.sh       ! Brootkit rookit ::
+etc/init.d/brdaemon       ! Brootkit rookit ::
+etc/rc.d/init.d/brdaemon  ! Brootkit rookit ::
+tmp/.br                   ! Brootkit rookit ::
+
 # KORKERDS.AB coinminer trojan (Coinminer.Linux.KORKERDS.AB)
 tmp/kworkerds   ! KORKERDS.AB coinminer trojan ::
 
